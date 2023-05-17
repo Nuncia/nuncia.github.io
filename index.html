@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./assets/css/normalizer.css"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Mónica Ayala</title>
-    <link rel="icon" type="image/png" href="./assets/imgs/android-chrome-512x512.png" />
+    <link rel="icon" type="image/png" href="./assets/imgs/monica-logo.jpg" />
 </head>
 
 
@@ -21,8 +21,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img class="navbarimg" src="./assets/imgs/monica-logo.jpg" style="width: 20%" alt="">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="navbarimg" src="./assets/imgs/monica-logo.jpg" style="width: 20%" alt="Mónica Ayala"/>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,9 +31,6 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Educación</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="./portafolio.html">Portafolío</a>
                         </li>
                     </ul>
@@ -41,10 +38,10 @@
             </div>
         </nav>
     </header>
-        <div class="contenedor mt-1">
+        <div class="contenedor d-flex mt-1">
             <section class="encabezado bg-secondary px-4">
                 <img class="foto" src="./assets/imgs/Monica.JPG" alt=""/>
-                <h4> Sobre mí </h4>
+                <h4 class="text-center"> Sobre mí </h4>
                 <br>
                 <p> Nací en Santiago de Chile el año 1978. Viví mis primeros años en la comuna de Maipú. Estudie casi toda la enseñanza básica en el colegio Matter Purissima.
                     La enseñanza secundaria la curse en el Liceo 1, Javiera Carrera. Egrese como Técnica en Administración de Personal de la Universidad de Santiago. Me titule de 
@@ -52,85 +49,95 @@
                     posterior a eso regrese a Santiago.
                 </p>
                 <hr>
-                <div>
-                    <h4>Redes sociales</h4>
+                <div class="text-center">
+                    correo: maayalahuerta@gmail.com
                 </div>
-                <div class="mt-5 text-center d-flex">
-                    <div>
-                        <a class="icono_1 m-2" href="https://twitter.com/mom_347">
-                            <i class="fa-brands fa-twitter fa-2x" style="color: #fdfcfc;"></i>
+                <hr class="mt-4">
+                <div>
+                    <h4 class="text-center">Redes sociales</h4>
+                </div>
+                <div class="mt-4 text-center d-flex justify-content-around">
+                    <div class="text-center">
+                        <a class="icono_1 text-dark m-2 text-center" href="https://twitter.com/mom_347">
+                            <i class="fa-brands fa-twitter fa-2x text-dark"></i>
                         </a>
                     </div>
-                    <div>
+                    <div class="text-center">
                         <a class="ms-2" href="https://github.com/Nuncia">
-                            <i class="fa-brands fa-github fa-2x" style="color: #fcfcfd;"></i>
+                            <i class="fa-brands fa-github fa-2x text-dark"></i>
                         </a>
                     </div>
-                    <div>
+                    <div class="text-centerS">
                         <a class="ms-3" href="https://www.facebook.com/monica.ayala.5268/">
-                            <i class="fa-brands fa-facebook fa-2x" style="color: #ffffff;"></i>
+                            <i class="fa-brands fa-facebook fa-2x text-dark"></i>
                         </a>
                     </div>
                 </div>
             </section>
             <div class="cuerpo">
-                <h4 class="titulo ms-5"> Educación </h4>
-                <section class="educacion bg-white ps-5 ms-5">
-                     <div class="educacion_1 ms-3">
+                <h4 class="titulo ms-5 mb-0"> Educación </h4>
+                <section class="educacion  flex-column bg-white ps-5 ms-5 mt-5">
+                     <div class="educacion_1 d-flex ms-3">
                         <a href="https://www.materpurissima.cl/web/">
                             <p> Colegio Matter Purissima </p>
                         </a>
                         <p class="ms-4"> Curse desde 1ro hasta 6 básico </p>
                      </div>
-                      <div class="educacion_2">
+                      <div class="educacion_2 d-flex">
                         <a href="https://www.facebook.com/liceo1javieracarrera/?locale=es_LA">
                             <p class="ms-3"> Liceo 1, Javiera Carrera </p>
                         </a>
                         <p class="ms-4"> Curse desde 7mo basico hasta 4 medio </p>
                       </div>
-                      <div class="educacion_3 ms-1">
+                      <div class="educacion_3 d-flex ms-1">
                         <a href="https://www.usach.cl/">
                             <p > Universidad de Santiago de Chile </p>
                         </a>
                         <p class="ms-4"> Egrese como Tecnico en administración de Personal, TAP el año 2002</p>
                       </div>
-                      <div class="educacion_4">
+                      <div class="educacion_4 d-flex align-content-start">
                         <a href="https://cujae.edu.cu/">
                             <p class="ms-4"> ISPJAE </p>
                         </a>
                         <p class="ingeniero"> Ingeniero Informático, 2012 </p>
                       </div>
+                      <div class="educacion_5 d-flex">
+                        <a href="https://cujae.edu.cu/">
+                            <p class="ms-4"> Desafío Latam </p>
+                        </a>
+                        <p class="ingeniero"> Desarrollo Fullstack, actualmente </p>
+                      </div>
                 </section>
-                <hr class="divisor">
-                <h5 class="pt-5 ps-2 ms-5">Datos Laborales</h5>
-                <section class="laboral pt-3  mt-5">
+                <hr class="mt-5">
+                <h5 class="pt-5 ps-2 ms-5"> Datos Laborales </h5>
+                <section class="laboral d-flex align-items-center flex-column-reverse pt-3  mt-5">
                     
-                    <div class="laboral_1 ps-0">
+                    <div class="laboral_1 d-flex ps-3">
                         <p> TCS </p>
                         <p> 2013 </p>
                         <p> Analista en proyectos en SBIF, Banco Falabella </p>
                     </div>
-                    <div class="laboral_2 ps-1">
+                    <div class="laboral_2 d-flex ps-3">
                         <p> BBVA </p>
                         <p> 2014-2016 </p>
                         <p>  Analista Operaciones, Proyecto Unificación Banco BBVA / Banco de Crédito Uruguayo </p>
                     </div>
-                    <div class="laboral_3 ps-2">
+                    <div class="laboral_3 d-flex ps-2">
                         <p> USACH </p>
                         <p> 2016-2018 </p>
                         <p> Desarrolladora, Proyecto de investigación Islides, Facultad de Ingeniería Industrial </p>
                     </div>
-                    <div class="laboral_4">
+                    <div class="laboral_4 d-flex ps-0">
                         <p> 4Rev </p>
-                        <p id="anyo"> 2018-2020 </p>
-                        <p id="proyecto">Proyectos realcionados con la mineria y teleccomunicaciones, desarrollados en tecnologias de IoT y dashbord. Me desempeñe como Ingeniera de Proyectos y desarrolladora</p>
+                        <p> 2018-2020 </p>
+                        <p>Proyectos relacionados con la mineria y telecomunicaciones, desarrollados en tecnologias de IoT y dashbord. Me desempeñe como Ingeniera de Proyectos y desarrolladora</p>
                     </div>
                 </section>
             </div>
         </div>
         
     <footer>
-        <span class="d-flex justify-content-center bg-body-tertiary">© Mónica Ayala. Todos los derechos reservados.</span>
+        <span class="d-flex justify-content-center bg-secondary pt-2 pb-2">© Mónica Ayala. Todos los derechos reservados.</span>
     </footer>
 </body>
 </html>

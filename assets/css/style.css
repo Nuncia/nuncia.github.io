@@ -3,10 +3,10 @@ body{
     font-family: 'Raleway';
 }
 
-.imagen{
+/* .imagen{
     width: 2%;
     height: 25px;
-}
+} */
 
 .foto{
     margin: 80px 10px 10px 60px;
@@ -18,12 +18,12 @@ body{
 
 .encabezado{
     width: 300px;
-    /* width: 100%; */
 }
 
 .encabezado-colaborativo{
     height: 120px;
     width: 280px;
+
 }
 
 .encabezado h3{
@@ -42,22 +42,13 @@ body{
 
 .contenedor{
     width: 600px;
-    display: flex;
-    /* flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    text-align: center; */
 }
 
 .contenedor p{
     width: 250px;
-    /* text-align: center; */
     padding: 5px;
 }
 
-/* .containedorPortafolio{
-    background-image: url(../imgs/foto-header.jpg);
-} */
 
 .titulo{
     margin-top: 100px;
@@ -65,81 +56,34 @@ body{
 
 .educacion{
     margin: 100px 0px 0px 0px;
-    display: flex;
-    flex-direction: column;
-}
-
-.educacion_1{
-    display: flex;
-}
-
-.educacion_2{
-    display: flex;
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 .educacion_3{
    padding: 0px 0px 0px 10px; 
-   display: flex;
+   /* display: flex; */
 
 }
 
 .educacion_4{
-    display: flex;
     text-align: start;
     /* margin-left: -58px; */
+}
+
+.educacion_5{
+    text-align: start;
 }
 
 .ingeniero{
     margin-left: 20px;
 }
-.divisor{
-    width: 100%;
-}
 
 .laboral{
-    display: flex;
     flex-direction: column-reverse;
     width: 300px;
-    text-align: left;
-    align-items: center;
-    flex-direction: column;
     padding-left: 500px;
 }
-
-.laboral_4{
-    display: flex;
-    text-align: left;
-    justify-content: flex-start;
-}
-
-.laboral_3{
-    display: flex;
-}
-
-.laboral_2{
-    display: flex;
-    padding-left: 30%;
-}
-
-.laboral_1{
-    display: flex;
-}
-
-#anyo{
-    /* padding-left: 10px; */
-}
-
-#proyecto{
-    /* padding-left: 30px; */
-    /* padding-left: -15px; */
-}
-
-/* .cabecera{
-    background-image: url('../imgs/foto-header.jpg');
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-} */
 
 .card{
     width: 18rem;
@@ -160,17 +104,12 @@ body{
     transform: translateY(-3%);
 }
 
-.card-title{
-    text-align: center;
-}
-
 .foto_1{
     width: 250px;
 
 }
 
 .botones{
-    display: flex;
     justify-content: space-evenly;
 }
 
@@ -179,21 +118,8 @@ body{
     width: 285px;
 }
 
-.titulo_proyectos{
-    padding-bottom: -10px;
-}
-
 .cuppon{
     width: 100%;
-}
-
-.agrandar{
-
-
-}
-
-.desplazar{
-
 }
 
 .pie{
